@@ -2,7 +2,7 @@ from time import timezone
 from webbrowser import get
 from discord.ext import commands, tasks
 import discord
-# import access
+import access
 from datetime import datetime, time, timedelta
 import asyncio
 import os
@@ -75,5 +75,5 @@ class MyBot(commands.Bot):
 
 if __name__ == "__main__":
     bot = MyBot("$", intents=intents)
-    client.run(os.environ('AMI_TOKEN'))
+    client.run(access.token)
 
