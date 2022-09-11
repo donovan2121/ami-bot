@@ -2,7 +2,6 @@ from time import timezone
 from webbrowser import get
 from discord.ext import commands
 import discord
-import access
 from datetime import datetime, time, timedelta
 import asyncio
 import os
